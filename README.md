@@ -9,32 +9,34 @@
 
 ## Installation <a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
+The packages required for this module are:
+- numpy
+- pandas
+- os
+- matplotlib
+- sklearn
+
+Other than sklearn, there should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
+
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interestested in using Stack Overflow data from 2011 to 2019 to better understand:
+For this project, I was interestested in using Stack Overflow data from 2018 to better understand the gap between men and women.
+The way I deconstructed this was by asking:
 
-1. Which programming languages were the most popular and how has this changed over time?
-2. For a coding language, were there common themes which led individuals to choose this?
-3. How bias played a role in the suggestions of developers for how to break into the field?
-4. What was the state of bootcamps for assisting individuals with breaking into developer roles?
-5. How were bootcamps assisting with increasing diversity in tech careers?
-
-The full set of files related to this course are owned by Udacity, so they are not publicly available here.  However, you can see pieces of the analysis here.  This README also serves as a template for students to follow in creating their own project README files.
+1. How big is the disparity in pay between men and women?
+2. How does having children impact job progression?
+3. Women in STEM… Is there really an obstacle?
 
 
 ## File Descriptions <a name="files"></a>
 
-There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
-
-There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
+The notebook 'Blog_prep.ipynb' contains the exploratory analysis involved with answering the questions above and outlining the thought process I used to attack these issues. It also contains the code which generates the materials used for the blog which are saved as '.png' files. Within the notebook, there is also some additional information there to showcase what I would have done if I had implemented a machine learning model. I have also included a .gitignore file as the dataset was too large to upload so I have ignore this and created a .pkl file instead. Markdown cells were used to assist in walking through the thought process for individual steps.  
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available [here](https://medium.com/@josh_2774/how-do-you-become-a-developer-5ef1c1c68711).
+The main findings of the code can be found at the post available (https://medium.com/p/21c91db2a6b4/edit).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-This data is part of the UK's initiative to better understand the  Must give credit to Stack Overflow for the data.  You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/stackoverflow/so-survey-2017/data).  Otherwise, feel free to use the code here as you would like! 
-
+This database - The Public 2018 Stack Overflow Developer Survey Results - is made available under the Open Database License (ODbL): http://opendatacommons.org/licenses/odbl/1.0/. Any rights in individual contents of the database are licensed under the Database Contents License: http://opendatacommons.org/licenses/dbcl/1.0/
